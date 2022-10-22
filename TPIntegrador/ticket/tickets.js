@@ -21,7 +21,7 @@ btnResumen.addEventListener("click", () => {
 btnBorrar.addEventListener("click", () => {
     document.getElementById("cantidad").value = 0;
     document.getElementById("precioPagar").innerText = 0;
-    document.getElementById("nombre").innerText = "";
-    document.getElementById("apellido").innerText = "";
-    document.getElementById("email").innerText = "";
+    document.getElementById("nombre").value = " ";
+    document.getElementById("apellido").value = " ";
+    document.getElementById("correo").value = " ";
 });
